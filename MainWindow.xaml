@@ -1,0 +1,25 @@
+﻿<Window x:Class="Offerletter.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Offerletter"
+        mc:Ignorable="d"
+        Background="WhiteSmoke"
+        Title="MainWindow" Height="450" Width="800">
+    <StackPanel>
+        <Label Width="300" Content="  JOB OFFER LETTER" Margin="0,30,400,0" FontSize="20"></Label>
+        <Label Width="110" Content="CANDIDATE NAME" Margin="0,50,550,0" Height="27"></Label>
+        <TextBox Width="200" x:Name="txtname" Margin="0,-25,200,0"></TextBox>
+        <Label Width="76" Content="         DATE" Margin="-520,-130,0,0" Height="24"></Label>
+        <TextBox Width="200" Margin="-200,-120,0,0" x:Name="txtdate" Height="21"></TextBox>
+        <Label Width="142" Content="    CANDIDATE ADDRESS"  Margin="0,10,570,0" Height="27"></Label>
+        <TextBox Width="200" Margin="0,-25,200,0"  MaxLines="4" AcceptsReturn="True" x:Name="txtadress" Height="50"></TextBox>
+        <Label Width="142" Content="           COMPANY NAME"  Margin="0,10,570,0" Height="27"></Label>
+        <TextBox Width="200" Margin="0,-25,200,0" x:Name="txtcompany"></TextBox>
+        <Label Width="142" Content="        COMPANY ADRESS"  Margin="0,10,570,0" Height="27"></Label>
+        <TextBox Width="200" Margin="0,-25,200,0" MaxLines="3" AcceptsReturn="True" x:Name="txtcom" Height="42"></TextBox>
+        <Button Width="200" Margin="0,50,0,0" Content="GENDRATE" Background="Yellow" Click="Button_Click" Height="26"></Button>
+    </StackPanel>
+    
+</Window>
